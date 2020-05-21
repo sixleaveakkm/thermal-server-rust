@@ -1,0 +1,2 @@
+[target.armv7-unknown-linux-gnueabihf]
+linker = "armv8-rpi3-linux-gnueabihf-gcc"
