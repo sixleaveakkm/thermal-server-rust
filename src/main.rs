@@ -68,7 +68,6 @@ fn start_web_socket(temp_matrix: TemperatureList) {
             println!("Connection from {}", ip);
 
             let (mut receiver, mut sender) = client.split().unwrap();
-
             for message in receiver.incoming_messages() {
                 let message = message.unwrap();
                 match message {
